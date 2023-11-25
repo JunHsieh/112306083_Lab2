@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StudentID_CSS_Lab.css">
+    <title>My Page</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: white; /* White background color for the body */
+            color: black; /* Black text color for the body */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        h1 {
+            margin: 10px 0 0; /* Adjusted margin to remove space above the heading */
+            padding: 10px;
+            background-color: #87CEEB; /* Light blue background color for the "My Page" heading */
+        }
+
+        h4 {
+            margin: 0; /* Remove margin to eliminate space between the heading and welcome text */
+            padding: 10px;
+            background-color: #87CEEB; /* Light blue background color for the welcome text */
+        }
+
+        nav {
+            background-color: #001F3F; /* Deep blue background color for the entire navigation */
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+        }
+
+        nav li {
+            font-size: 18px;
+            background-color: #001F3F; /* Deep blue background color for list items */
+        }
+
+        nav ul ul {
+            display: none;
+            position: absolute;
+            background-color: #001F3F; /* Deep blue background color for dropdowns */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+
+        nav li:hover > ul {
+            display: block;
+        }
+
+        /* Style for all main navigation items */
+        nav li a {
+            color: white;
+            text-decoration: none; /* Remove underlines from links */
+            padding: 10px;
+            display: block;
+        }
+
+        p {
+            text-align: left;
+            margin-left: 20px;
+            margin-right: 20px;
+            background-color: white; /* White background color for paragraphs */
+            color: black; /* Black text color for paragraphs */
+            padding: 10px; /* Add padding to enhance visual appeal */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Page</h1>
+    <h4>Welcome to my homepage. Explore and enjoy!</h4>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+                <a href="#">Services</a>
+                <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <p>This is my first homepage.</p>
+    <p>Feel free to send me a message: <a href="mailto:112306083@nccu.edu.tw">112306083@nccu.edu.tw</a></p>
+    
+</body>
+</html>

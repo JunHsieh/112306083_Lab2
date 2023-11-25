@@ -1,0 +1,58 @@
+
+/* StudentID_CSS_Lab.css */
+
+/* External CSS file */
+
+body {
+    color: white;
+    background-color: #333;
+    font-family: 'Courier New', monospace;
+}
+
+.heading {
+    font-family: 'Arial, sans-serif';
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar {
+    position: relative;
+    top: 1em;
+    left: 1em;
+    width: 20em;
+}
+
+/* Media Query for all screens */
+@media all {
+    body {
+        font-size: 16px; /* Adjust font size for screens */
+    }
+
+    .navbar {
+        border: 1px solid #ccc; /* Add a border to the navbar on all screens */
+    }
+}
+
+/* Media Query for print */
+@media print {
+    body {
+        color: black;
+        background-color: white;
+        font-size: 12px; /* Adjust font size for printed pages */
+    }
+
+    .navbar {
+        display: none; /* Hide the navbar in print mode */
+    }
+
+    /* Additional print styles can be added as needed */
+}
+
+
